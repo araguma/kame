@@ -2,7 +2,7 @@
 
 /** @type {import("prettier").Config} */
 const prettierConfig = {
-    plugins: ['prettier-plugin-organize-imports'],
+    plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss'],
 
     /* prettier */
     printWidth: 128,
